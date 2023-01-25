@@ -11,7 +11,7 @@ public class FunctionInputDemo {
         list.forEach(t-> System.out.println(processString(s-> t.toUpperCase(), t)));
 
     }
-
+    // added a random comment
     public static String processString(Function<String, String> operation, String target) {
         return operation.apply(target);
     }
