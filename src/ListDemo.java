@@ -22,5 +22,11 @@ public class ListDemo {
         System.out.println("++++++++++++");
 
         list.forEach(t-> System.out.println(t));
+
+        System.out.println("++++++++++++");
+
+        Consumer consumer = t -> System.out.println(t);
+        list.forEach(consumer);
+
     }
 }
